@@ -1,0 +1,8 @@
+
+# Ignora tutti i file con estensione .slxc
+*.slxc
+
+# Ignora le cartelle specificate
+/report/
+/presentation/
+/slprj/
