@@ -97,7 +97,8 @@ switch simulationType
 end
 
 %% Start Simulation
-sim("simulation.slx",'StopTime',num2str(StopTime));
+g = 9.81;
+% sim("simulation.slx",'StopTime',num2str(StopTime));
 
 %% Plotting 
-run('plot_Final.m');
+% run('plot_Final.m');

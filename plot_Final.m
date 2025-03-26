@@ -1,6 +1,10 @@
 
 close all
 
+out = ans;
+clear ans
+
+%%
 switch simulationType
     case 1
         folder = '/Regulation/';
@@ -26,9 +30,6 @@ switch Adaptive_OFF
         filenameInputBaseline = strcat('./images',folder,'/Adaptive_ON/UAV_Input_Baseline_Adaptive_ON_Gamma_',num2str(gamma),'.pdf');
         filenameInputAdaptive = strcat('./images',folder,'/Adaptive_ON/UAV_Input_Adaptive_Adaptive_ON_Gamma_',num2str(gamma),'.pdf');
 end
-
-out = ans;
-clear ans
 
 % Recupera il vettore del tempo e i dati dal timeseries
 t = out.tout;     % Tempo

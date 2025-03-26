@@ -2,7 +2,11 @@
 # Ignora tutti i file con estensione .slxc
 *.slxc
 
+# Ignora seguente file
+plot_Sensor.m
+
 # Ignora le cartelle specificate
 /report/
 /presentation/
 /slprj/
+/results/
