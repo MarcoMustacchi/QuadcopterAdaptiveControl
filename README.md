@@ -1,4 +1,8 @@
-<h1 align="center">MRAC Adaptive Control of a Quadrotor UAV under Actuator Fault</h1>
+<p align="center">
+  <img src="https://github.com/MarcoMustacchi/MarcoMustacchi.github.io/blob/main/assets/img/icons/UniPD_logo.svg" width="150">
+</p>
+
+<h1 align="center">MRAC Adaptive Control of a Quadrotor UAV <br> under Actuator Fault</h1>
 
 ##  
 |                         Adaptive OFF                         |                         Adaptive ON                          |
